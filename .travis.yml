@@ -3,5 +3,3 @@ services:
   - docker
 before_install:
   - docker build -t dawasthi123/react-docker -f Dockerfile.dev .
-script:
-  - docker run -e dawasthi123/react-docker npm run test
